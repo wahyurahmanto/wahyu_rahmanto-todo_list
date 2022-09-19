@@ -1,0 +1,22 @@
+PROGRAM To-Do List
+
+Start
+    WRITE "Display List"
+
+    IF "add list":
+        FUNCTION add_list()
+        WRITE "Display List"
+    ELSE
+        WRITE "Display List"
+    endif
+
+    IF "Edit List":
+            FUNCTION editList()
+            IF "Remove List":
+                FUNCTION remove_list()
+            endif
+        WRITE "Display List"
+    ELSE
+        WRITE "Display List"
+    endif
+End
